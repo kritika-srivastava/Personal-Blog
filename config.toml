@@ -6,6 +6,8 @@ title = "Kritika Srivastava"
 languageCode = "en"
 hasCJKLanguage = false
 
+#publish directory
+publishDir = "docs"
 # Name of theme
 theme = "meme"
 
