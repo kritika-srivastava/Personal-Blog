@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://kritikajournals.live/"
+baseURL = "https://kritikajournals.tech/"
 title = "Kritika Srivastava"
 languageCode = "en"
 hasCJKLanguage = false
