@@ -1,0 +1,131 @@
+I"!<p><img src="https://camo.githubusercontent.com/d61800e0293a2d29f1b65dd9284c0bc60d89fb98eca567ccfc9c34fd5d620119/68747470733a2f2f7777772e746865737061726b73666f756e646174696f6e73696e6761706f72652e6f72672f696d616765732f6c6f676f5f736d616c6c2e706e67" width="100" height="100" align="right" /></p>
+
+<p>I worked as an intern for The Sparks foundation.
+In this blog I am going to summarize all the tasks that I completed while working as an intern for <a href="https://www.thesparksfoundationsingapore.org/">The Sparks Foundation.</a></p>
+
+<p>In this internship, we were provided a total of 6 Tasks and I was able to successfully complete all the 6 tasks within the given time-frame. All the tasks can be found on my <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks">github Repository.</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>Internship Category</strong></th>
+      <th style="text-align: center"><strong>Duration</strong></th>
+      <th style="text-align: center"><strong>Type</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Data Science and Business</td>
+      <td style="text-align: center">1 Month</td>
+      <td style="text-align: center">Work from</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Analytics</td>
+      <td style="text-align: center">October-2020</td>
+      <td style="text-align: center">Home</td>
+    </tr>
+  </tbody>
+</table>
+
+<p> </p>
+
+<h3 id="task-1--prediction-using-supervised-ml-level---beginner">Task-1 : Prediction using Supervised ML (Level - Beginner)</h3>
+<p><strong>Please click <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks/blob/master/Task-1_Linear_Regression.ipynb">here</a> to view my solution.</strong></p>
+
+<ol>
+  <li>Predict the percentage of marks of an student based on the number of study hours.</li>
+  <li>This is a simple linear regression task as it involves just 2 variables.</li>
+  <li>Data can be found at <a href="http://bit.ly/w">http://bit.ly/w</a></li>
+  <li>You can use R, Python, SAS Enterprise Miner or any other tool.</li>
+  <li>What will be predicted score if a student studies for 9.25 hrs/ day?
+ </li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ePDA-9p19fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p> </p>
+
+<h3 id="task-2--prediction-using-unsupervised-ml-level---beginner">Task-2 : Prediction using Unsupervised ML (Level - Beginner)</h3>
+<p><strong>Please click <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks/blob/master/Task-2_Clustering.ipynb">here</a> to view my solution.</strong></p>
+
+<ol>
+  <li>From the given ‘Iris’ dataset, predict the optimum number of clusters and represent it visually.</li>
+  <li>Use R or Python or perform this task.</li>
+  <li>Data can be found at <a href="https://bit.ly/3cGyP8j">https://bit.ly/3cGyP8j</a>
+ </li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uv-d6PRphp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p> </p>
+
+<h3 id="task-3--prediction-using-decision-tree-algorithmlevel---intermediate">Task-3 : Prediction using Decision Tree Algorithm(Level - Intermediate)</h3>
+<p><strong>Please click <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks/blob/master/Task-3_Decision_Tree.ipynb">here</a> to view my solution.</strong></p>
+
+<ol>
+  <li>For the given ‘Iris’ dataset, create the Decision Tree classifier and visualize it graphically.</li>
+  <li>The purpose is if we feed any new data to this classifier, it would be able to predict the right class accordingly.</li>
+  <li>Data can be found at <a href="https://bit.ly/3kXTdox">https://bit.ly/3kXTdox</a>
+ </li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VlBGJgLoGIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p> </p>
+
+<h3 id="task-4--stock-market-prediction-using-numerical-and-textual-analysis-level---advanced">Task-4 : Stock Market Prediction using Numerical and Textual Analysis (Level - Advanced)</h3>
+<p><strong>Please click <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks/blob/master/Task-4_Stock_Price.ipynb">here</a> to view my solution.</strong></p>
+
+<p><strong>NOTE : If you face any issue over dataset then please refer to the thread of <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks/issues/2">Issue #2</a>.</strong></p>
+
+<ol>
+  <li>Create a hybrid model for stock price/performance prediction using numerical analysis of historical stock prices, and sentimental analysis of news headlines.</li>
+  <li>Stock to analyze and predict SENSEX (S&amp;P BSE SENSEX)</li>
+  <li>Download historical stock prices from <a href="https://finance.yahoo.com/?guccounter=1">finance.yahoo.com</a></li>
+  <li>Download textual (news) data from <a href="https://bit.ly/36fFPI6">https://bit.ly/36fFPI6</a></li>
+  <li>Use either R or Python, or both for separate analysis and then combine the findings to create a hybrid model.
+ </li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sL00unmrVKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p> </p>
+
+<h3 id="task-5--to-explore-business-analytics-level---beginner--intermediate">Task-5 : To Explore Business Analytics (Level - Beginner &amp; Intermediate)</h3>
+<p><strong>Please click <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks/blob/master/Task-5_Superstore.xlsx">here</a> to view my solution.</strong></p>
+
+<ol>
+  <li>Perform ‘Exploratory Data Analysis’ on the provided dataset ‘SampleSuperstore’</li>
+  <li>As a business manager, try to find out the weak areas where you can work to make more profit.</li>
+  <li>What all business problems you can derive by exploring the data?</li>
+  <li>You can choose any of the tool of your choice (Python/R/Tableau/PowerBI/Excel)</li>
+  <li>Dataset link :<a href="https://bit.ly/3i4rbWl">https://bit.ly/3i4rbWl</a></li>
+  <li>Create storyboards. Screen record along with your audio explaining the charts and interpretations.
+ </li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N4AFlnEoigk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p> </p>
+
+<h3 id="task-6--timeline-analysis--covid-19-level---advanced">Task-6 : Timeline Analysis : Covid-19 (Level - Advanced)</h3>
+<p><strong>Please click <a href="https://github.com/kritika-srivastava/The-Sparks-Foundation-Tasks/blob/master/Task-6_Covid19.twb">here</a> to view my solution.</strong></p>
+
+<ol>
+  <li>Create a storyboard showing spread of Covid 19 cases in your country or any region (Asia, Europe, BRICS etc)</li>
+  <li>Use animation, timeline and annotations to create attractive and interactive dashboards and story</li>
+  <li>Identify interesting patterns and possible reasons helping Covid 19 spread with basic as well as advanced charts</li>
+  <li>Use Tableau or Power BI for this task</li>
+  <li>Screen record the completed storyboard along with your audio explaining the charts and giving recommendations.</li>
+  <li>Dataset: Daily updated .csv file on <a href="https://bit.ly/30d2gdi">https://bit.ly/30d2gdi</a>
+ </li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLASL3p3i3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p> </p>
+
+<p>You can view all the tasks on my <a href="https://www.youtube.com/playlist?list=PLWA7Ml8Rq3KfV6QSeO_Hr9t0xbfc-Xdg2">youtube playlist</a> as well.</p>
+
+<h3 id="references--">References -</h3>
+<ul>
+  <li><a href="https://help.tableau.com/v2018.3/offline/en-us/tableau_desktop.pdf">Tableau</a></li>
+  <li><a href="https://scikit-learn.org/stable/">Scikit Learn</a></li>
+</ul>
+
+:ET

@@ -5,31 +5,33 @@
     <description>Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Apr 2021 20:15:27 +0530</pubDate>
-    <lastBuildDate>Sat, 17 Apr 2021 20:15:27 +0530</lastBuildDate>
+    <pubDate>Sat, 17 Apr 2021 20:42:26 +0530</pubDate>
+    <lastBuildDate>Sat, 17 Apr 2021 20:42:26 +0530</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title>#GSoC_2021</title>
-        <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+        <title>My first GSoC experience @ Debian</title>
+        <description>&lt;p&gt;Well this was my first experience of working with a huge project for GSoC 2021.
+To be honest I was really late for making contributions to the project as I was waiting for the results of Outreachy but a huge thanks to the developer community of Debian for being very supportive throughout the process.&lt;/p&gt;
 
-&lt;h3 id=&quot;where-does-it-come-from&quot;&gt;Where does it come from?&lt;/h3&gt;
+&lt;p&gt;Also, to my surprise there were just a few student developers working on the project(just 3 at that time) and this saved me from being overwhelmed and I could carry out my work with ease.&lt;/p&gt;
 
-&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.&lt;/p&gt;
+&lt;p&gt;I am quite familiar with git and Github, HTML, C++ and this was the main reason for me choosing this project.
+I was able to setup the project &lt;a href=&quot;https://salsa.debian.org/ci-team/debci&quot;&gt;Debian Continuous Integerations&lt;/a&gt; (debci)  within two days.&lt;/p&gt;
 
-&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+&lt;p&gt;When I began contributing to the project, I got to know that most of the codes were written in Ruby and Shell. Well this was quite a learning curve for me, I got to fix some of the shellcheck errors and errors in the ruby files.&lt;/p&gt;
 
-&lt;h3 id=&quot;why-do-we-use-it&quot;&gt;Why do we use it?&lt;/h3&gt;
+&lt;p&gt;I attended the meeting for GSoC, got a chance to interact with the mentors and was able to clarify my doubts.
+As of now the contribution and proposal submission preiod is over.
+I am still looking forward to contribute to Debian irrespective of the the outcome of GSoC.&lt;/p&gt;
 
-&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+&lt;p&gt;You can view my project proposal &lt;a href=&quot;https://docs.google.com/document/d/1gPS0DD3us0_5ecczn9-vZxP8ujcYpJGTsJPomL5X75k/edit?usp=sharing&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;where-can-i-get-some&quot;&gt;Where can I get some?&lt;/h3&gt;
+&lt;p&gt;I’ll keep you all updated about the status of my application.&lt;/p&gt;
 
-&lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;This content was copied from http://www.lipsum.com/ as an example of post article.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Happy Coding ;-)&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Apr 2021 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2021/GSoC/</link>
@@ -42,7 +44,7 @@
         <title>Export WSL2 to other Drive</title>
         <description>&lt;p&gt;Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux binary executables (in ELF format) natively on Windows 10 and Windows Server 2019. If you don’t know what Windows Subsystem for Linux is (WSL from now on in this post), I recommend reading &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/about&quot;&gt;this&lt;/a&gt; before.&lt;/p&gt;
 
-&lt;p&gt;In this blog, I shall not only tell you how to setup WSL2 on you blog but I will also guide you about how to move the vhdx(virtual hard disk) file of ubuntu to other drives(Eg - E:// or D:// instead of C://).&lt;/p&gt;
+&lt;p&gt;In this blog, I shall not only tell you how to setup WSL2 on you blog but I will also guide you about how to move the vhdx(virtual hard disk) file of ubuntu to other drives(Eg - E: or D: instead of C:).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;If you already have WSL2 installed please move on to step B.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;step-a---installing-wsl2-on-your-pc&quot;&gt;Step A - Installing WSL2 on your PC&lt;/h2&gt;
@@ -170,7 +172,7 @@ PowerShell&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\&amp;gt; wsl.exe --import UbuntuCustom d:\wsl\UbuntuCustom c:\data\ubuntu.tar
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;NOTE: You may check an script for moving WSL distros that use these commands at https://github.com/pxlrbt/move-wsl&lt;/p&gt;
+&lt;p&gt;NOTE: You may check an script for moving WSL distros that use these commands at &lt;a href=&quot;https://github.com/pxlrbt/move-wsl&quot;&gt;https://github.com/pxlrbt/move-wsl&lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;using-lxrunoffline&quot;&gt;Using LxRunOffline&lt;/h6&gt;
 
