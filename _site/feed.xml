@@ -5,8 +5,8 @@
     <description>Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Apr 2021 17:47:44 +0530</pubDate>
-    <lastBuildDate>Sat, 17 Apr 2021 17:47:44 +0530</lastBuildDate>
+    <pubDate>Sat, 17 Apr 2021 20:15:27 +0530</pubDate>
+    <lastBuildDate>Sat, 17 Apr 2021 20:15:27 +0530</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -40,7 +40,178 @@
     
       <item>
         <title>Export WSL2 to other Drive</title>
-        <description>
+        <description>&lt;p&gt;Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux binary executables (in ELF format) natively on Windows 10 and Windows Server 2019. If you don’t know what Windows Subsystem for Linux is (WSL from now on in this post), I recommend reading &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/about&quot;&gt;this&lt;/a&gt; before.&lt;/p&gt;
+
+&lt;p&gt;In this blog, I shall not only tell you how to setup WSL2 on you blog but I will also guide you about how to move the vhdx(virtual hard disk) file of ubuntu to other drives(Eg - E:// or D:// instead of C://).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you already have WSL2 installed please move on to step B.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;step-a---installing-wsl2-on-your-pc&quot;&gt;Step A - Installing WSL2 on your PC&lt;/h2&gt;
+
+&lt;p&gt;Here I am going to perform the manual installation steps present on the official docs given &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/install-win10&quot;&gt;here&lt;/a&gt;.
+The steps mentioned here are same has those mentioned on the official website.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1---enable-the-windows-subsystem-for-linux&quot;&gt;Step 1 - Enable the Windows Subsystem for Linux&lt;/h4&gt;
+
+&lt;p&gt;You must first enable the “Windows Subsystem for Linux” optional feature before installing any Linux distributions on Windows.&lt;/p&gt;
+
+&lt;p&gt;Open PowerShell as Administrator and run:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;step-2---check-requirements-for-running-wsl-2&quot;&gt;Step 2 - Check requirements for running WSL 2&lt;/h4&gt;
+
+&lt;p&gt;To update to WSL 2, you must be running Windows 10.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For x64 systems: Version 1903 or higher, with Build 18362 or higher.&lt;/li&gt;
+  &lt;li&gt;For ARM64 systems: Version 2004 or higher, with Build 19041 or higher.&lt;/li&gt;
+  &lt;li&gt;Builds lower than 18362 do not support WSL 2. Use the &lt;a href=&quot;https://www.microsoft.com/software-download/windows10&quot;&gt;Windows Update Assistant&lt;/a&gt; to update your version of Windows.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To check your version and build number, select &lt;strong&gt;Windows logo key + R&lt;/strong&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;winver&lt;/code&gt;, select OK. Update to the latest Windows version in the Settings menu.&lt;/p&gt;
+
+&lt;p&gt;Note :If you are running Windows 10 version 1903 or 1909, open “Settings” from your Windows menu, navigate to “Update &amp;amp; Security” and select “Check for Updates”. Your Build number must be 18362.1049+ or 18363.1049+, with the minor build # over .1049. Read more: WSL 2 Support is coming to Windows 10 Versions 1903 and 1909. See the troubleshooting instructions.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3---enable-virtual-machine-feature&quot;&gt;Step 3 - Enable Virtual Machine feature&lt;/h4&gt;
+
+&lt;p&gt;Before installing WSL 2, you must enable the Virtual Machine Platform optional feature. Your machine will require virtualization capabilities to use this feature.&lt;/p&gt;
+
+&lt;p&gt;Open PowerShell as Administrator and run:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Restart your machine to complete the WSL install and update to WSL 2.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4---download-the-linux-kernel-update-package&quot;&gt;Step 4 - Download the Linux kernel update package&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download the latest package:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi&quot;&gt;WSL2 Linux kernel update package for x64 machines&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Note: If you’re using an ARM64 machine, please download the ARM64 package instead. If you’re not sure what kind of machine you have, open Command Prompt or PowerShell and enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;systeminfo | find &quot;System Type&quot;&lt;/code&gt;. Caveat: On non-English Windows versions, you might have to modify the search text, for example, in German it would be &lt;code class=&quot;highlighter-rouge&quot;&gt;systeminfo | find &quot;Systemtyp&quot;&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Run the update package downloaded in the previous step. (Double-click to run - you will be prompted for elevated permissions, select ‘yes’ to approve this installation.)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once the installation is complete, move on to the next step - setting WSL 2 as your default version when installing new Linux distributions.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-5---set-wsl-2-as-your-default-version&quot;&gt;Step 5 - Set WSL 2 as your default version&lt;/h4&gt;
+
+&lt;p&gt;Open PowerShell and run this command to set WSL 2 as the default version when installing a new Linux distribution:
+PowerShell&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wsl --set-default-version 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;step-6---install-your-linux-distribution-of-choice&quot;&gt;Step 6 - Install your Linux distribution of choice&lt;/h4&gt;
+
+&lt;p&gt;Open the Microsoft Store and select your favorite Linux distribution.&lt;/p&gt;
+
+&lt;p&gt;View of Linux distributions in the Microsoft Store&lt;/p&gt;
+
+&lt;p&gt;he following links will open the Microsoft store page for each distribution:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9pjn388hp8c9&quot;&gt;Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9N9TNGVNDL3Q&quot;&gt;Ubuntu 18.04 LTS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9n6svws3rx71&quot;&gt;Ubuntu 20.04 LTS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9NJFZK00FGKV&quot;&gt;openSUSE Leap 15.1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9MZ3D1TRP8T1&quot;&gt;SUSE Linux Enterprise Server 12 SP5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9PN498VPMF3Z&quot;&gt;SUSE Linux Enterprise Server 15 SP1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9PKR34TNCV07&quot;&gt;Kali Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9MSVKQC78PK6&quot;&gt;Debian GNU/Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9n6gdm4k2hnc&quot;&gt;Fedora Remix for WSL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9NV1GV1PXZ6P&quot;&gt;Pengwin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9N8LP0X93VCP&quot;&gt;Pengwin Enterprise&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/store/apps/9p804crf0395&quot;&gt;Alpine WSL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From the distribution’s page, select “Get”.
+ &lt;/p&gt;
+
+&lt;p&gt;&lt;img height=&quot;400&quot; width=&quot;600&quot; src=&quot;https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first time you launch a newly installed Linux distribution, a console window will open and you’ll be asked to wait for a minute or two for files to de-compress and be stored on your PC. All future launches should take less than a second.&lt;/p&gt;
+
+&lt;p&gt;You will then need to &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/user-support&quot;&gt;create a user account and password for your new Linux distribution&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.microsoft.com/en-us/windows/wsl/media/ubuntuinstall.png&quot; /&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;CONGRATULATIONS! You’ve successfully installed and set up a Linux distribution that is completely integrated with your Windows operating system!&lt;/p&gt;
+&lt;h2 id=&quot;step-b---moving-wsl2-vhdx&quot;&gt;Step B - Moving WSL2 vhdx&lt;/h2&gt;
+
+&lt;p&gt;If you are using Windows 10 version 1903 (April 2019 Update) or later, you can try the WSL command line tool with the export and import options. If you are using an older Windows 10 version, you can move the distribution to another drive using lxRunOffline.&lt;/p&gt;
+
+&lt;h6 id=&quot;using-the-wsl-command-line-tool&quot;&gt;Using the WSL command line tool&lt;/h6&gt;
+
+&lt;p&gt;In Windows 10 version 1903 (April 2019 Update) or later, you can use the wsl.exe command line tool.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Export the distribution. Create a .tar file with the distribution to move using wsl.exe –export&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wsl.exe --export &amp;lt;DistributionName&amp;gt; &amp;lt;Tar-FileName&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;For instance, to export an Ubuntu distribution, you can use&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\&amp;gt; wsl.exe --export Ubuntu c:\data\ubuntu.tar
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;Import the distribution into the target folder. Then, you can import the exported distribution into another folder&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wsl.exe --import &amp;lt;DistributionName&amp;gt; &amp;lt;Folder-To-Install&amp;gt; &amp;lt;Tar-FileName&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;For instance, to import the exported Ubuntu into a new UbuntuCustom distribution, you can use&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\&amp;gt; wsl.exe --import UbuntuCustom d:\wsl\UbuntuCustom c:\data\ubuntu.tar
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;NOTE: You may check an script for moving WSL distros that use these commands at https://github.com/pxlrbt/move-wsl&lt;/p&gt;
+
+&lt;h6 id=&quot;using-lxrunoffline&quot;&gt;Using LxRunOffline&lt;/h6&gt;
+
+&lt;p&gt;In any Windows 10 version, you can move the distribution to another drive using lxRunOffline.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Set permissions to the target folder. First, I think you must set some permissions to the folder where the distribution will be moved. You may use icacls &lt;dir&gt; /grant &quot;&lt;user&gt;:(OI)(CI)(F)&quot; to set the proper permissions.&lt;/user&gt;&lt;/dir&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\&amp;gt; whoami
+test\jaime
+
+C:\&amp;gt; icacls D:\wsl /grant &quot;jaime:(OI)(CI)(F)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;NOTE: In addition to the above permissions, I have activated the long path names in Windows.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Move the distribution. Using lxrunoffline move.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\wsl&amp;gt; lxrunoffline move -n Ubuntu-18.04 -d d:\wsl\installed\Ubuntu-18.04
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You may check the installation folder using&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\wsl&amp;gt; lxrunoffline get-dir -n Ubuntu-18.04
+d:\wsl\installed\Ubuntu-18.04
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;Run the distribution. after moving the distribution, you can run the distribution using wsl or the same &lt;code class=&quot;highlighter-rouge&quot;&gt;lxrunoffline&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\wsl&amp;gt; lxrunoffline run -n Ubuntu-18.04 -w
+user@test:~$ exit
+logout
+
+C:\wsl&amp;gt; wsl
+user@test:/mnt/c/wsl$ exit
+logout
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;WoW! You were successfully able to image the virtual harddisk of WSL2 to other drive.
+Congratulations!&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Jan 2021 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2021/WSL2/</link>
