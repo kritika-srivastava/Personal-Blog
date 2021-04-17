@@ -5,8 +5,8 @@
     <description>Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Apr 2021 16:53:50 +0530</pubDate>
-    <lastBuildDate>Sat, 17 Apr 2021 16:53:50 +0530</lastBuildDate>
+    <pubDate>Sat, 17 Apr 2021 17:06:48 +0530</pubDate>
+    <lastBuildDate>Sat, 17 Apr 2021 17:06:48 +0530</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -212,13 +212,13 @@ In this blog I am going to summarize all the tasks that I completed while workin
 Wait !&lt;br /&gt;
 Before that, tell me, do you know what a blog is?&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you don’t, then you’ve come to the right place. A blog was more of a personal diary that people shared online. In this online journal, you could talk about your daily life or share about things that you were doing.&lt;/p&gt;
+&lt;p&gt;If you don’t, then you’ve come to the right place. A blog is more of a personal diary that people shared online. In this online journal, you can talk about your daily life or share about things that you do.&lt;/p&gt;
 
 &lt;p&gt;In this blog I shall walk you through the details of how I created this blog site.&lt;/p&gt;
 
 &lt;p&gt;&lt;img height=&quot;300&quot; width=&quot;500&quot; src=&quot;https://www.wpbeginner.com/wp-content/uploads/2018/07/whatisblog.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The blog theme that I used is a Jekyll theme named Thinkspace. &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;The blog theme that I used is a Jekyll theme named &lt;a href=&quot;https://jekyllthemes.io/theme/thinkspace&quot;&gt;Thinkspace&lt;/a&gt;. &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Jekyll is a static site generator that you can use to create simple sites or blogs and Github pages is a static site hosting service. By using Jekyll with Github pages, you can quite easily put together your first blog/website for free.&lt;/p&gt;
 
