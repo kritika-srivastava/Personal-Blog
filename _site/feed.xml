@@ -5,8 +5,8 @@
     <description>Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 May 2021 13:50:45 +0530</pubDate>
-    <lastBuildDate>Thu, 20 May 2021 13:50:45 +0530</lastBuildDate>
+    <pubDate>Wed, 02 Jun 2021 00:21:12 +0530</pubDate>
+    <lastBuildDate>Wed, 02 Jun 2021 00:21:12 +0530</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -147,7 +147,7 @@ What you need to change is the file system type to Ext4 and mount point to / (/ 
       </item>
     
       <item>
-        <title>My first GSoC experience @ Debian</title>
+        <title>Pre-GSoC experience @ Debian</title>
         <description>&lt;p&gt;Well this was my first experience of working with a huge project for GSoC 2021.
 To be honest I was really late for making contributions to the project as I was waiting for the results of Outreachy but a huge thanks to the developer community of Debian for being very supportive throughout the process.&lt;/p&gt;
 
@@ -164,6 +164,10 @@ I was able to setup the project &lt;a href=&quot;https://salsa.debian.org/ci-tea
 As of now the contribution and proposal submission period is over.&lt;/p&gt;
 
 &lt;p&gt;I’ll keep you all updated about the status of my application.&lt;/p&gt;
+
+&lt;p&gt;[ UPDATE ] - I was not selected for GSOC 2021 but this was definitely a very fruitful experience for me. I encourage you all to participate and apply for GSoC next year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.”&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you!&lt;/p&gt;
 
@@ -354,6 +358,260 @@ Congratulations!&lt;/p&gt;
         <pubDate>Fri, 22 Jan 2021 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2021/WSL2/</link>
         <guid isPermaLink="true">http://localhost:4000/2021/WSL2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>AdobeWiT Scholarship Interview Experience-2</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Adobe0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Adobe WIT Scholarship is an opportunity presented to undergraduate girls currently pursuing their third year in a Computer Science or related stream. The aim of the scholarship is to encourage more girls and women to explore the field of technology and reduce the existing gender gap in the tech industry.&lt;/p&gt;
+
+&lt;p&gt;The scholarship offers several benefits including mentoring by a senior technology leader at Adobe, an opportunity to be considered for an internship at Adobe, a conference ticket to GHCI and funding for the candidate’s remaining tuition fees.&lt;/p&gt;
+
+&lt;p&gt;You can read more about the eligibility criteria and benefits of the Adobe WIT Scholarship &lt;a href=&quot;https://research.adobe.com/adobe-india-women-in-technology-scholarship/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;scholarship-details&quot;&gt;Scholarship Details&lt;/h2&gt;
+
+&lt;p&gt;Scholarship will cover:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Fund toward tuition fees for the remainder of the award recipient’s university education ending in academic year 2022.&lt;/li&gt;
+  &lt;li&gt;Opportunity for Summer Internship at Adobe India in 2021.&lt;/li&gt;
+  &lt;li&gt;Mentoring by a senior technology leader from Adobe.&lt;/li&gt;
+  &lt;li&gt;Travel to Grace Hopper Conference India, including participation fees.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A committee of Adobe researchers will be reviewing all applicants and will choose the recipients at their discretion. Recipients are selected based on their research (creative, impactful, important, and realistic in scope), how their work would contribute to Adobe, their technical skills (ability to build complex computer programs), and their personal skills (problem-solving ability, communication, leadership, organizational skills, ability to work in teams).&lt;/p&gt;
+
+&lt;p&gt;Students may be invited for phone interviews for internship opportunities prior to Fellowship winner selection.&lt;/p&gt;
+
+&lt;h2 id=&quot;application-process&quot;&gt;Application process&lt;/h2&gt;
+
+&lt;p&gt;The initial application consists of submitting a resume, answering 5-6 essay type questions (the word limit ranges from 200-250 words) and a letter of recommendation from your college professor.&lt;/p&gt;
+
+&lt;p&gt;Talking about the application process, there are 5 parts to the application.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-basic-information&quot;&gt;1. Basic Information&lt;/h3&gt;
+
+&lt;p&gt;This part includes filling up basic details about your course, university, CGPA, contact information and research areas of interest. (I would recommend reading up about the advancements in the research areas you’ve mentioned and have thorough knowledge of the subject.) The research areas I had mentioned were Machine Learning, BCI, and Robotics.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-essays&quot;&gt;2. Essays&lt;/h3&gt;
+
+&lt;p&gt;There were 5 essay-based questions, all of which you were expected to write in under 200 words. These essays intend to understand your personality, why you’re interested in the field of technology, your goals, the difficulties you’ve faced as a woman in technology, your role model and of course why you think you deserve this scholarship.&lt;/p&gt;
+
+&lt;p&gt;While writing these answers, don’t hesitate to mention your achievements or failures, but make sure, to be honest. Craft a story that can describe who you are, your interests and passion, and do not try to answer it superficially.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Your answers shall speak more about what you are now rather that what you want to become or achieve in future.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-resume&quot;&gt;3. Resume&lt;/h3&gt;
+
+&lt;p&gt;My resume had a combination of my important academic grades, work experience (internships), projects, achievements, positions of responsibility &amp;amp; certifications. Here is a tip - Try to keep your resume short and limit it to a single page. Choose the projects carefully because this is where most of your discussions shall be focused on. Also, make sure that you mention those projects that have a significant impact and deal with reallife scenarios.&lt;/p&gt;
+
+&lt;p&gt;Again, make sure to be honest, in your resume about your achievements &amp;amp; projects, because both my interviews were based on the things I had listed in my resume.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-academic-transcripts&quot;&gt;4. Academic Transcripts&lt;/h3&gt;
+
+&lt;p&gt;I had included my semester grade cards (the first three semesters whose results were published) &amp;amp; my 12th and 10th certificates.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-letter-of-recommendation&quot;&gt;5. Letter of Recommendation&lt;/h3&gt;
+
+&lt;p&gt;Approach a professor from college who knows you personally(and can write a good LOR - Yes it does help in strengthening your application) and request for a letter of recommendation. Try and request in advance, because chances are, your professor could be giving recommendations for a lot of people from your institution as well. So, ensure that, you give the professor sufficient buffer time to submit the letter by the deadline.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-multimedia&quot;&gt;6. Multimedia&lt;/h3&gt;
+
+&lt;p&gt;There’s also an additional multimedia (video) submission link. But it’s completely up to you to decide whether to submit one or not. I decided to submit one.
+ &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h1 id=&quot;my-second-interview&quot;&gt;My Second Interview&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Adobe-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Don’t choose your inspiration solely because you think it will appeal to others. You are going to live with this play for some time—maybe years—so you should base your work on one that speaks to you.”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I received this mail within a week or two after the first interview and needless to say, I was on cloud nine. My second interview was scheduled on December 3, 2020. The second interview will also be quite similar to the first one except for the fact that it had a more detailed discussion and was focused mainly on a single project rather that a variety.&lt;/p&gt;
+
+&lt;p&gt;First of all, I feel really grateful to be interviewed by one of the &lt;strong&gt;technology specialists at Adobe, Mr. Atanu R Sinha.&lt;/strong&gt; The interview was, in itself, a huge opportunity and I feel blessed to be interacting with him.&lt;/p&gt;
+
+&lt;p&gt;The interview began with my introduction.
+Questions-&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tell me about the project you wish to discuss.(Again choose this wisely- The second interview is going to be a tough one)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There were many follow up questions regarding the project  and they were quite detailed(peace…). I was able to answer most of the questions decently but there were 1-2 questions, that I never thought of, would be related to the project.&lt;/p&gt;
+
+&lt;p&gt;My interviewer was kind enough to explain me the different aspects in which I could explain the project and we had an in depth discussion covering the different use cases of the project.&lt;/p&gt;
+
+&lt;p&gt;One of the most motivating aspects of this interview was that I really became comfortable in explaining my approach smoothly and made sure that my interviewer understands each and everything that I say.&lt;/p&gt;
+
+&lt;p&gt;Coming to the programming part, I explained the codes to the interviewer and he seemed satisfied with my answers.&lt;/p&gt;
+
+&lt;p&gt;Next I asked a few questions from him regarding Adobe products and the different phases through which each project goes through in order to become a final end user product.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This meeting again lasted for 45 minutes.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I was not very satisfied with my performance. I could identify some of the areas in which my interview did not go up to the mark and I needed to focus on some areas of development.&lt;/p&gt;
+
+&lt;p&gt;(P.S.- This was probably the final interview and I could not clear it but I learnt a lot from it.)&lt;/p&gt;
+
+&lt;p&gt;My interview concluded on 3rd December and the scholarship results were declared on 11 December, 2020.
+There were a total of 6 talented scholarship winners this year(See the list &lt;a href=&quot;https://research.adobe.com/adobe-india-women-in-technology-scholarship/india-scholarship-winners/&quot;&gt;here&lt;/a&gt;)  and I congratulate them on their achievement.&lt;/p&gt;
+
+&lt;p&gt;If you have any specific questions, feel free to ask them in comment section. I’ll try my level best to help you out.&lt;/p&gt;
+
+&lt;p&gt;Stay safe and healthy. All the best ;-)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Dec 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Adobewit-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Adobewit-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>AdobeWiT Scholarship Interview Experience-1</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Adobe0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Adobe WIT Scholarship is an opportunity presented to undergraduate girls currently pursuing their third year in a Computer Science or related stream. The aim of the scholarship is to encourage more girls and women to explore the field of technology and reduce the existing gender gap in the tech industry.&lt;/p&gt;
+
+&lt;p&gt;The scholarship offers several benefits including mentoring by a senior technology leader at Adobe, an opportunity to be considered for an internship at Adobe, a conference ticket to GHCI and funding for the candidate’s remaining tuition fees.&lt;/p&gt;
+
+&lt;p&gt;You can read more about the eligibility criteria and benefits of the Adobe WIT Scholarship &lt;a href=&quot;https://research.adobe.com/adobe-india-women-in-technology-scholarship/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;scholarship-details&quot;&gt;Scholarship Details&lt;/h2&gt;
+
+&lt;p&gt;Scholarship will cover:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Fund toward tuition fees for the remainder of the award recipient’s university education ending in academic year 2022.&lt;/li&gt;
+  &lt;li&gt;Opportunity for Summer Internship at Adobe India in 2021.&lt;/li&gt;
+  &lt;li&gt;Mentoring by a senior technology leader from Adobe.&lt;/li&gt;
+  &lt;li&gt;Travel to Grace Hopper Conference India, including participation fees.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A committee of Adobe researchers will be reviewing all applicants and will choose the recipients at their discretion. Recipients are selected based on their research (creative, impactful, important, and realistic in scope), how their work would contribute to Adobe, their technical skills (ability to build complex computer programs), and their personal skills (problem-solving ability, communication, leadership, organizational skills, ability to work in teams).&lt;/p&gt;
+
+&lt;p&gt;Students may be invited for phone interviews for internship opportunities prior to Fellowship winner selection.&lt;/p&gt;
+
+&lt;h2 id=&quot;application-process&quot;&gt;Application process&lt;/h2&gt;
+
+&lt;p&gt;The initial application consists of submitting a resume, answering 5-6 essay type questions (the word limit ranges from 200-250 words) and a letter of recommendation from your college professor.&lt;/p&gt;
+
+&lt;p&gt;Talking about the application process, there are 5 parts to the application.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-basic-information&quot;&gt;1. Basic Information&lt;/h3&gt;
+
+&lt;p&gt;This part includes filling up basic details about your course, university, CGPA, contact information and research areas of interest. (I would recommend reading up about the advancements in the research areas you’ve mentioned and have thorough knowledge of the subject.) The research areas I had mentioned were Machine Learning, BCI, and Robotics.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-essays&quot;&gt;2. Essays&lt;/h3&gt;
+
+&lt;p&gt;There were 5 essay-based questions, all of which you were expected to write in under 200 words. These essays intend to understand your personality, why you’re interested in the field of technology, your goals, the difficulties you’ve faced as a woman in technology, your role model and of course why you think you deserve this scholarship.&lt;/p&gt;
+
+&lt;p&gt;While writing these answers, don’t hesitate to mention your achievements or failures, but make sure, to be honest. Craft a story that can describe who you are, your interests and passion, and do not try to answer it superficially.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Your answers shall speak more about what you are now rather that what you want to become or achieve in future.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-resume&quot;&gt;3. Resume&lt;/h3&gt;
+
+&lt;p&gt;My resume had a combination of my important academic grades, work experience (internships), projects, achievements, positions of responsibility &amp;amp; certifications. Here is a tip - Try to keep your resume short and limit it to a single page. Choose the projects carefully because this is where most of your discussions shall be focused on. Also, make sure that you mention those projects that have a significant impact and deal with reallife scenarios.&lt;/p&gt;
+
+&lt;p&gt;Again, make sure to be honest, in your resume about your achievements &amp;amp; projects, because both my interviews were based on the things I had listed in my resume.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-academic-transcripts&quot;&gt;4. Academic Transcripts&lt;/h3&gt;
+
+&lt;p&gt;I had included my semester grade cards (the first three semesters whose results were published) &amp;amp; my 12th and 10th certificates.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-letter-of-recommendation&quot;&gt;5. Letter of Recommendation&lt;/h3&gt;
+
+&lt;p&gt;Approach a professor from college who knows you personally(and can write a good LOR - Yes it does help in strengthening your application) and request for a letter of recommendation. Try and request in advance, because chances are, your professor could be giving recommendations for a lot of people from your institution as well. So, ensure that, you give the professor sufficient buffer time to submit the letter by the deadline.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-multimedia&quot;&gt;6. Multimedia&lt;/h3&gt;
+
+&lt;p&gt;There’s also an additional multimedia (video) submission link. But it’s completely up to you to decide whether to submit one or not. I decided to submit one.
+ &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h1 id=&quot;the-dream-e-mail&quot;&gt;The Dream E-Mail&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Adobe-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To be honest, I literally applied to for the scholarship with &lt;strong&gt;I am not going to make it but there is no harm in trying&lt;/strong&gt; kind of attitude and on that day when I saw this email, I could not believe my eyes. I was quite excited and nervous about the interview.&lt;/p&gt;
+
+&lt;p&gt;The first thing I did was I woke my mom and told her about the email. She was so happy that she hugged me! :-)&lt;/p&gt;
+
+&lt;p&gt;Next thing that I did was to reply to the e-mail to schedule the interview. Since I got a lot of days to choose from, I chose 23 November for my interview. Next I began preparing for the interview. I saw a lot of videos of previous scholars and started reiterating on my essays and projects.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h1 id=&quot;interview-day&quot;&gt;Interview Day&lt;/h1&gt;
+
+&lt;p&gt;It was 23 November 2020, my interview was scheduled in the afternoon between 1:00 p.m. and 1:30 p.m. The platform was bluejeans(almost all the interviews of adobe take place on this platform).&lt;/p&gt;
+
+&lt;p&gt;Questions -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Please introduce yourself.&lt;/li&gt;
+  &lt;li&gt;Tell me something about your background and what are the projects you have worked on in college?&lt;/li&gt;
+  &lt;li&gt;Why do you enjoy working on that technology? What about it excites you?&lt;/li&gt;
+  &lt;li&gt;Which of the projects you’ve mentioned are you most proud of and why? &lt;strong&gt;(Most important)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We started with discussing the hardware projects. I ws asked about the ICs(since I mentioned about an IR sensing bot). Then I was asked to tell me about the roadblocks for the project.(This discussion lasted around 5 minutes and the interviewer was quite happy with my response).&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Can you explain some of the projects that you mentioned ?&lt;/li&gt;
+  &lt;li&gt;Please explain the workflow of the project. (I choose encephalophone - one of my ongoing research project)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I began discussing the details of the project.The interviewer became quite interested in the project and we had a very detailed discussion on the different aspects of the project. (This discussion lasted around 25 minutes).&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mention some instances when you’ve had to lead a team to solve a particular technological problem.&lt;/li&gt;
+  &lt;li&gt;Which of the following projects were done as a team? How was the experience?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Answers the above two questions :&lt;/p&gt;
+
+&lt;p&gt;Since my team had won a hackathon at my college, I began discussing the my hackathon project and then I showed the live demonstration of the project. Then I was asked a few questions and I answered them all nicely.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Why do you want this scholarship?&lt;/li&gt;
+  &lt;li&gt;Any questions?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I asked the interviewer about his idea of an ideal candidate. Also,I knew it was a great opportunity to know about the workculture of Adobe so I asked the same question as a followup to the previous one.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This 30 minutes(to be) interview lasted for around 47-50 minutes.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I really enjoyed interacting with the interviewer. This was a very fruitful experience for me.&lt;/p&gt;
+
+&lt;p&gt;I was quite happy with my interview. At that point of time I would have never thought that I would clear this interview and qualify for the next interview but I did.&lt;/p&gt;
+
+&lt;p&gt;I will be sharing that interview experience in my next blog.If you have any specific questions, feel free to ask them in comment section. I’ll try my level best to help you out.&lt;/p&gt;
+
+&lt;p&gt;Till then… Stay tuned and be safe ;-)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Adobewit-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Adobewit-1/</guid>
         
         
       </item>
