@@ -4,7 +4,7 @@ title_right   : " Srivastava" # default: ""
 description   : "Blog"
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url           : https://kritika-srivastava.github.io/Personal-Blog # site url
-baseurl       : "/Personal-Blog" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-176303223-2
