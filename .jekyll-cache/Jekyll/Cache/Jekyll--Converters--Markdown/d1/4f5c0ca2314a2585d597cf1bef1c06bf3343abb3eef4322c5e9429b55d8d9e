@@ -1,0 +1,27 @@
+I"|<p>Well this was my first experience of working with a huge project for GSoC 2021.
+To be honest I was really late for making contributions to the project as I was waiting for the results of Outreachy but a huge thanks to the developer community of Debian for being very supportive throughout the process.</p>
+
+<p>Also, to my surprise there were just a few student developers working on the project(just 3 at that time but they were the ones already involved with the community for long time…which I got to know later) and this saved me from being overwhelmed and I could carry out my work with ease.</p>
+
+<p>You can view my project proposal <a href="https://docs.google.com/document/d/1gPS0DD3us0_5ecczn9-vZxP8ujcYpJGTsJPomL5X75k/edit?usp=sharing">here.</a></p>
+
+<p>I am quite familiar with git and Github, HTML, C++ and this was the main reason for me choosing this project.
+I was able to setup the project <a href="https://salsa.debian.org/ci-team/debci">Debian Continuous Integerations</a> (debci)  within two days.</p>
+
+<p>When I began contributing to the project, I got to know that most of the codes were written in Ruby and Shell. Well this was quite a learning curve for me, I got to fix some of the shellcheck errors and errors in the ruby files.</p>
+
+<p>I attended the meeting for GSoC, got a chance to interact with the mentors and was able to clarify my doubts.
+As of now the contribution and proposal submission period is over.</p>
+
+<p>I’ll keep you all updated about the status of my application.</p>
+
+<p>[ UPDATE ] - I was not selected for GSOC 2021 but this was definitely a very fruitful experience for me. I encourage you all to participate and apply for GSoC next year.</p>
+
+<blockquote>
+  <p><strong>“Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.”</strong></p>
+</blockquote>
+
+<p>Thank you!</p>
+
+<p>Happy Coding ;-)</p>
+:ET
